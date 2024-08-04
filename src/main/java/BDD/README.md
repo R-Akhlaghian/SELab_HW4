@@ -21,6 +21,4 @@
 
   - نتیجه‌ی نهایی اجرای تست
 
-  - 
-
-  - 
+![Screenshot from 2024-08-04 21-15-28](https://github.com/user-attachments/assets/543d0e83-e020-409b-b998-751364ee18cd)
