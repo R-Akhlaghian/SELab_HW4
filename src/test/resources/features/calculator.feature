@@ -16,9 +16,9 @@ Feature: Calculator
     Scenario Outline: calculate square root of a/b
         Given Two input values, <a> and <b>
         When I calculate the square root of a/b
-        Then I expect the result <expectedResult>
+        Then I expect the result <result>
         Examples:
-            | a | b | expectedResult |
-            | 4 | 1 | 2              |
-            | 36 | 4 | 3              |
-            | 16 | 4 | 2             |
+            | a | b | result |
+            | 4 | 1 | 2      |
+            | 36 | 4 | 3     |
+            | 16 | 4 | 2     |
