@@ -37,6 +37,10 @@ public static void temp() {
 ### نتایج بهینه‌سازی
 پس از بهینه‌سازی، روش `temp()` دیگر در نتایج پروفایلینگ YourKit نشان داده نمی‌شود. این نشان می‌دهد که این روش به قدری بهینه‌سازی شده که دیگر مصرف‌کننده‌ی قابل‌توجهی از منابع CPU یا حافظه نیست.
 #### پیاده‌سازی اصلی:
+<img width="1076" alt="image" src="https://github.com/user-attachments/assets/540f5377-4044-4b4c-8a71-e560bd1ca610">
+<img width="1075" alt="image" src="https://github.com/user-attachments/assets/0f1bafa8-2a05-46fc-bfd8-53b03a00d94c">
+<img width="1079" alt="image" src="https://github.com/user-attachments/assets/fe8dc5ba-450b-4afa-a23c-e5f820b44ed1">
+<img width="1076" alt="image" src="https://github.com/user-attachments/assets/f06eb1b6-9198-4043-88c9-27a4fd70bf0d">
 
 #### پیاده‌سازی بهینه‌شده:
 <img width="1076" alt="image" src="https://github.com/user-attachments/assets/cad60282-2760-4924-985e-bb528d0bb1dc">
