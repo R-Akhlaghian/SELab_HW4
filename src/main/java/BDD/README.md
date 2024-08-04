@@ -1,0 +1,26 @@
+# گزارش آزمایش BDD
+
+## گزارش بند ۲
+
+  - علت بروز مشکل undefined در هنگام اجرای Scenario Outline:
+
+
+## گزارش بند ۳
+
+  - Scenario, Scenario Outlineها برای مسئله‌ی مطرح‌شده
+
+![Screenshot from 2024-08-04 21-08-53](https://github.com/user-attachments/assets/d0e9ad8a-830c-4246-a6ab-d54af02c4c18)
+
+  - گام تعریف‌شده برای when (برای گام‌های given , then که برای گرفتن ورودی و سنجیدن درستی جواب بدست‌آمده با جواب مورد انتظار است، در هر دو مسئله‌ی جمع کردن و جذر تقسیم دو عدد یکسان است)
+    
+![Screenshot from 2024-08-04 21-10-38](https://github.com/user-attachments/assets/3dcea551-345b-4d60-a435-ea6afe575df7)
+
+  - کد برنامه
+    
+![Screenshot from 2024-08-04 21-13-21](https://github.com/user-attachments/assets/c82cab70-71b5-44c5-9b75-9b5a736e9842)
+
+  - نتیجه‌ی نهایی اجرای تست
+
+  - 
+
+  - 
