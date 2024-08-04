@@ -5,6 +5,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
+import static org.junit.Assert.assertEquals;
 
 
 public class MyStepdefs {
@@ -34,6 +35,26 @@ public class MyStepdefs {
     @Then("^I expect the result (\\d+)$")
     public void iExpectTheResult(int arg0) {
         Assert.assertEquals(arg0, result);
+    }
+
+
+    @Given("^Two input values, a = (\\d+) and b = (\\d+)$")
+    public void twoInputValuesAAndB(int a, int b) {
+        this.value1 = a;
+        this.value2 = b;
+    }
+
+    @When("^I calculate the square root of a/b$")
+    public void iCalculateTheSquareRootOfAB() {
+        if (this.value2 == 0) {
+            throw new IllegalArgumentException("Cannot divide by zero");
+        }
+        this.result = (int) Math.sqrt((double) this.value1 / this.value2);
+    }
+
+    @Then("^I expect the result to be ([\\d.]+)$")
+    public void iExpectTheResultToBe(double expectedResult) {
+        assertEquals(expectedResult, this.result, 0.001);
     }
 
 }
